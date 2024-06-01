@@ -82,6 +82,7 @@ header nav ul li a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
 .search-bar {
     display: flex;
     align-items: center;
@@ -110,7 +111,7 @@ header nav ul li a:hover::after {
     width: 0;
     opacity: 0;
     transition: width 0.5s ease, opacity 0.5s ease;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
 .search-bar:focus-within .input-search {
@@ -120,7 +121,7 @@ header nav ul li a:hover::after {
 
 .container {
     width: 100%;
-    min-height: 100vh; 
+    min-height: 100vh;
     text-align: center;
     margin-top: 100px;
 }
@@ -131,6 +132,7 @@ header nav ul li a:hover::after {
 
 .container h1 {
     font-size: 72px;
+    color: #fff;
 }
 
 .container p {
@@ -177,8 +179,8 @@ header nav ul li a:hover::after {
     align-items: center;
 }
 
-.histoire h1 {
-    background: #fff;
+.container h1 {
+    color: #000;
 }
 
 .timeline {
@@ -188,9 +190,9 @@ header nav ul li a:hover::after {
     left: 50%;
     background-image: url(./assets/chronology_line.png);
     background-repeat: repeat-y;
-    background-position: center top; 
+    background-position: center top;
 }
-  
+
 .card {
     background: #cacaca;
     margin: 10px 0;
@@ -227,6 +229,7 @@ header nav ul li a:hover::after {
 .card:not(:first-child) {
     margin-top: 50px;
 }
+
 .card:nth-child(2n) {
     margin-left: 30%;
 }
