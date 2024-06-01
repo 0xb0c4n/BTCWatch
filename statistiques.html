@@ -15,18 +15,14 @@
                 <li><a href="/statistiques.html">Statistiques</a></li>
                 <li><a target="_blank" href="https://binance.com">Acheter</a></li>
             </ul>
-            <div class="search-bar">
-                <input type="text" class="input-search" placeholder="Tapez pour rechercher">
-                <button class="btn-search"><i class="fas fa-search"></i></button>
-            </div>
         </nav>
     </header>
     <div class="container">
     <h1>Statistiques</h1>
-    <div class="stats-grid">
+    <article class="stats-grid">
         <!-- Trading Chart -->
-        <div class="tradingview-widget-container chart" style="height:100%;width:100%">
-            <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
+        <section class="tradingview-widget-container chart" style="height:100%;width:100%">
+            <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
             <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
             {
                 "autosize": true,
@@ -41,10 +37,10 @@
                 "support_host": "https://www.tradingview.com"
             }
             </script>
-        </div>
+        </section>
 
         <!-- Trading Analysis -->
-        <div class="tradingview-widget-container analysis">
+        <section class="tradingview-widget-container analysis">
             <div class="tradingview-widget-container__widget"></div>
             <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
             {
@@ -58,10 +54,10 @@
                 "colorTheme": "dark"
             }
             </script>
-        </div>
+        </section>
 
         <!-- Trading News -->
-        <div class="tradingview-widget-container news">
+        <section class="tradingview-widget-container news">
             <div class="tradingview-widget-container__widget"></div>
             <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
                 {
@@ -73,14 +69,12 @@
                     "locale": "en"
                 }
             </script>
-          </div>
+        </section>
           
+    </article>
     </div>
-    </div>
-    <!--
-        Juste un éditeur d'icones
-    -->
-    <script src="./config.js"></script> 
-
+    <footer>
+        Alexandre DEVIJVER | 1°2 | 2023-2024
+    </footer>
 </body>
 </html>
